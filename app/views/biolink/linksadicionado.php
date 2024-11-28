@@ -81,6 +81,7 @@ a[href="/linksadicionado"]:hover {
 
     <ul>
         <?php foreach ($links as $link): ?>
+            
             <li>
                 <a href="<?= $link['url']; ?>" target="_blank"><?= htmlspecialchars($link['title']); ?></a>
             </li>
