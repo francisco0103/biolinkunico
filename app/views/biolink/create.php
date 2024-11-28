@@ -7,7 +7,14 @@
 </form>
 <style>
 
-    /* Estilização do formulário */
+  /* Centralizar o título h1 */
+h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: black; /* Cor do título (ajustável) */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilização do formulário */
 form {
     width: 100%;
     max-width: 400px;
